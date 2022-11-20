@@ -17,6 +17,8 @@
 		D57BAF38292A31850022A403 /* ExerciseObjectiveCProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57BAF37292A31850022A403 /* ExerciseObjectiveCProjectTests.m */; };
 		D57BAF42292A31850022A403 /* ExerciseObjectiveCProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57BAF41292A31850022A403 /* ExerciseObjectiveCProjectUITests.m */; };
 		D57BAF44292A31850022A403 /* ExerciseObjectiveCProjectUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57BAF43292A31850022A403 /* ExerciseObjectiveCProjectUITestsLaunchTests.m */; };
+		D57BAF5C292A37490022A403 /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D57BAF5B292A37490022A403 /* XYZPerson.m */; };
+		D57BAF5F292A395C0022A403 /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D57BAF5E292A395C0022A403 /* XYZShoutingPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		D57BAF3D292A31850022A403 /* ExerciseObjectiveCProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExerciseObjectiveCProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57BAF41292A31850022A403 /* ExerciseObjectiveCProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExerciseObjectiveCProjectUITests.m; sourceTree = "<group>"; };
 		D57BAF43292A31850022A403 /* ExerciseObjectiveCProjectUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExerciseObjectiveCProjectUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D57BAF5A292A37490022A403 /* XYZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
+		D57BAF5B292A37490022A403 /* XYZPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		D57BAF5D292A395C0022A403 /* XYZShoutingPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
+		D57BAF5E292A395C0022A403 /* XYZShoutingPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		D57BAF1A292A317B0022A403 /* ExerciseObjectiveCProject */ = {
 			isa = PBXGroup;
 			children = (
+				D57BAF50292A365D0022A403 /* Classes */,
 				D57BAF1B292A317B0022A403 /* AppDelegate.h */,
 				D57BAF1C292A317B0022A403 /* AppDelegate.m */,
 				D57BAF1E292A317B0022A403 /* SceneDelegate.h */,
@@ -134,6 +141,17 @@
 				D57BAF43292A31850022A403 /* ExerciseObjectiveCProjectUITestsLaunchTests.m */,
 			);
 			path = ExerciseObjectiveCProjectUITests;
+			sourceTree = "<group>";
+		};
+		D57BAF50292A365D0022A403 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D57BAF5A292A37490022A403 /* XYZPerson.h */,
+				D57BAF5B292A37490022A403 /* XYZPerson.m */,
+				D57BAF5D292A395C0022A403 /* XYZShoutingPerson.h */,
+				D57BAF5E292A395C0022A403 /* XYZShoutingPerson.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D57BAF23292A317B0022A403 /* ViewController.m in Sources */,
+				D57BAF5F292A395C0022A403 /* XYZShoutingPerson.m in Sources */,
 				D57BAF1D292A317B0022A403 /* AppDelegate.m in Sources */,
 				D57BAF2E292A31820022A403 /* main.m in Sources */,
 				D57BAF20292A317B0022A403 /* SceneDelegate.m in Sources */,
+				D57BAF5C292A37490022A403 /* XYZPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
